@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="baidu"
+    errors="0" failures="1" hostname="" id="" package="baidu" skipped="0"
+    tests="1" time="47.69" timestamp="Wed, 01 Nov 2017 07:31:23 GMT">
+  
+    <testcase name="Bilibili Live Login Test" time="47.69" assertions="2">
+
+      <failure message="Expected element &lt;.top-nav-login-btn.last&gt; to be visible - element was not found">    at Object.Bilibili Live Login Test (E:\NightWatch\tests\baidu.js:14:19)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

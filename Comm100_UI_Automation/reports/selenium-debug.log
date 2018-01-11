@@ -1,0 +1,112 @@
+10:54:34.906 INFO - Launching a standalone Selenium Server
+10:54:35.024 INFO - Java: Oracle Corporation 25.40-b05
+10:54:35.024 INFO - OS: Windows 8.1 6.3 amd64
+10:54:35.039 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+10:54:35.132 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:54:35.132 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:54:35.147 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN8_1
+10:54:35.150 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+10:54:35.153 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+10:54:35.300 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+10:54:35.300 INFO - Selenium Server is up and running
+10:54:36.098 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4eb03873, name=Live Chat\get Online And Chat\ Get Online And Chat Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+10:54:36.142 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4eb03873, name=Live Chat\get Online And Chat\ Get Online And Chat Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+10:54:40.510 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4eb03873, name=Live Chat\get Online And Chat\ Get Online And Chat Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+10:54:40.531 INFO - Executing: [maximise window])
+10:54:40.631 INFO - Done: [maximise window]
+10:54:40.696 INFO - Executing: [get: https://ent.comm100.com/adminmanage/login.aspx])
+10:54:42.572 INFO - Done: [get: https://ent.comm100.com/adminmanage/login.aspx]
+10:54:42.592 INFO - Executing: [find elements: By.cssSelector: #txtEmail])
+10:54:42.706 INFO - Done: [find elements: By.cssSelector: #txtEmail]
+10:54:42.716 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtEmail]])
+10:54:42.741 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtEmail]]
+10:54:42.783 INFO - Executing: [find element: By.cssSelector: #txtEmail])
+10:54:42.806 INFO - Done: [find element: By.cssSelector: #txtEmail]
+10:54:42.816 INFO - Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtEmail]])
+10:54:42.837 INFO - Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtEmail]]
+10:54:42.841 INFO - Executing: [find element: By.cssSelector: #txtEmail])
+10:54:42.850 INFO - Done: [find element: By.cssSelector: #txtEmail]
+10:54:42.855 INFO - Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtEmail], [c, o, m, m, 1, 0, 0, t, r, a, i, n, i, n, g, 2, @, c, o, m, m, 1, 0, 0, ., c, o, m]])
+10:54:42.990 INFO - Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtEmail], [c, o, m, m, 1, 0, 0, t, r, a, i, n, i, n, g, 2, @, c, o, m, m, 1, 0, 0, ., c, o, m]]
+10:54:42.997 INFO - Executing: [find element: By.cssSelector: #txtPassword])
+10:54:43.122 INFO - Done: [find element: By.cssSelector: #txtPassword]
+10:54:43.127 INFO - Executing: [clear: 1 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtPassword]])
+10:54:43.221 INFO - Done: [clear: 1 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtPassword]]
+10:54:43.228 INFO - Executing: [find element: By.cssSelector: #txtPassword])
+10:54:43.261 INFO - Done: [find element: By.cssSelector: #txtPassword]
+10:54:43.276 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtPassword], [A, a, 0, 0, 0, 0, 0, 0]])
+10:54:43.391 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: #txtPassword], [A, a, 0, 0, 0, 0, 0, 0]]
+10:54:45.404 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (cssSelector) {
+        return $(cssSelector)[0].click();
+    }.apply(window, passedArgs);, [#btnLogin]])
+10:54:45.691 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (cssSelector) {
+        return $(cssSelector)[0].click();
+    }.apply(window, passedArgs);, [#btnLogin]]
+10:54:45.715 INFO - Executing: [find elements: By.cssSelector: #txtEmail])
+10:54:56.922 INFO - Done: [find elements: By.cssSelector: #txtEmail]
+10:54:56.957 INFO - Executing: [find element: By.cssSelector: .hlGetOnlineAndChatNSel])
+10:54:56.993 INFO - Done: [find element: By.cssSelector: .hlGetOnlineAndChatNSel]
+10:54:57.003 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: .hlGetOnlineAndChatNSel]])
+10:54:57.655 INFO - Done: [click: 2 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: .hlGetOnlineAndChatNSel]]
+10:55:00.782 INFO - Executing: [get window handles])
+10:55:00.819 INFO - Done: [get window handles]
+10:55:00.835 INFO - Executing: [switch to window: {26c2dbb5-b3f2-44f8-b731-747b709ca73d}])
+10:55:00.857 INFO - Done: [switch to window: {26c2dbb5-b3f2-44f8-b731-747b709ca73d}]
+10:55:02.879 INFO - Executing: [find element: By.cssSelector: .Modal__action--2Jb-1>button:nth-child(1)>span])
+10:55:07.471 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".Modal__action--2Jb-1>button:nth-child(1)>span"}
+Command duration or timeout: 3.42 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'DESKTOP-TOCLROG', ip: '192.168.0.24', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f2c4f685-b00f-4067-811c-3531b011ceb3
+*** Element info: {Using=css selector, value=.Modal__action--2Jb-1>button:nth-child(1)>span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":".Modal__action--2Jb-1>button:nth-child(1)>span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'DESKTOP-TOCLROG', ip: '192.168.0.24', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40-ea'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/comm100/AppData/Local/Temp/anonymous4969205845840131256webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/comm100/AppData/Local/Temp/anonymous4969205845840131256webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/comm100/AppData/Local/Temp/anonymous4969205845840131256webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/comm100/AppData/Local/Temp/anonymous4969205845840131256webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/comm100/AppData/Local/Temp/anonymous4969205845840131256webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+10:55:07.481 WARN - Exception: Unable to locate element: {"method":"css selector","selector":".Modal__action--2Jb-1>button:nth-child(1)>span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'DESKTOP-TOCLROG', ip: '192.168.0.24', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40-ea'
+Driver info: driver.version: unknown
+10:55:09.680 INFO - Executing: [find elements: By.cssSelector: .AgentTab__tabItem--2gTJn.AgentTab__selected--1vPZi])
+10:55:22.266 INFO - Done: [find elements: By.cssSelector: .AgentTab__tabItem--2gTJn.AgentTab__selected--1vPZi]
+10:55:22.277 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: .AgentTab__tabItem--2gTJn.AgentTab__selected--1vPZi]])
+10:55:22.296 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on WINDOWS (f2c4f685-b00f-4067-811c-3531b011ceb3)] -> css selector: .AgentTab__tabItem--2gTJn.AgentTab__selected--1vPZi]]
+10:55:22.304 INFO - Executing: [delete session: cc4e9ab7-b961-471d-b424-c0ab707528ea])
+10:55:23.810 INFO - Done: [delete session: cc4e9ab7-b961-471d-b424-c0ab707528ea]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="liveChart.campains.PreChatTest"
+    errors="0" failures="1" hostname="" id="" package="campains" skipped="0"
+    tests="2" time="125.3" timestamp="Fri, 15 Dec 2017 11:14:11 GMT">
+  
+    <testcase name="Sign in the comm100" classname="liveChart.campains.PreChatTest" time="36.70" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Update window title" classname="liveChart.campains.PreChatTest" time="88.59" assertions="3">
+
+    
+
+      <failure message="Expected element &lt;#preview-chat-window-title&gt; text to equal: &quot;stones tests&quot;">    at Object.Update window title (E:\Comm100_UI_Automation\tests\liveChart\campains\PreChatTest.js:21:24)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="5">
+
+  <testsuite name="liveChat.dashboard.DashboardTest"
+    errors="1" failures="0" hostname="" id="" package="dashboard" skipped="3"
+    tests="5" time="18.47" timestamp="Sat, 30 Dec 2017 12:43:12 GMT">
+  
+    <testcase name="Sign in the comm100" classname="liveChat.dashboard.DashboardTest" time="18.45" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Live Chat / Dashboard\ Dashboard Test / verify Dashboard Page]:
+
+  TypeError: DashboardPage.verifyElementsOfPage is not a function
+    at Object.verify Dashboard Page (D:\Comm100_UI_Automation\tests\liveChat\dashboard\DashboardTest.js:12:23)
+    at Module.call (D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Comm100_UI_Automation\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\Comm100_UI_Automation\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\Comm100_UI_Automation\node_modules\q\q.js:796:13)
+    at D:\Comm100_UI_Automation\node_modules\q\q.js:556:49
+    at runSingle (D:\Comm100_UI_Automation\node_modules\q\q.js:137:13)
+    at flush (D:\Comm100_UI_Automation\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+      </system-err>
+  
+    <testcase name="verify Dashboard Page" classname="liveChat.dashboard.DashboardTest" time="0.02100" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Live Chat / Dashboard\ Dashboard Test / verify Dashboard Page]:
+
+  TypeError: DashboardPage.verifyElementsOfPage is not a function
+    at Object.verify Dashboard Page (D:\Comm100_UI_Automation\tests\liveChat\dashboard\DashboardTest.js:12:23)
+    at Module.call (D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Comm100_UI_Automation\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\Comm100_UI_Automation\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\Comm100_UI_Automation\node_modules\q\q.js:796:13)
+    at D:\Comm100_UI_Automation\node_modules\q\q.js:556:49
+    at runSingle (D:\Comm100_UI_Automation\node_modules\q\q.js:137:13)
+    at flush (D:\Comm100_UI_Automation\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Verify InstalCode In Quick Access" classname="liveChat.dashboard.DashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify AddAgent In Quick Access" classname="liveChat.dashboard.DashboardTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify GetOnlineAndChat In Quick Access" classname="liveChat.dashboard.DashboardTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

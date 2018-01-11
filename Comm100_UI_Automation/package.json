@@ -1,0 +1,48 @@
+{
+  "name": "NightWatch",
+  "version": "1.0.0",
+  "description": "Functional test cases for cars using nightwatch",
+  "main": "globals.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chromedriver": "^2.30.1",
+    "eslint": "^1.9.0",
+    "form-urlencoded": "^0.1.4",
+    "fs-extra": "^3.0.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "line-by-line": "^0.1.5",
+    "minimist": "^1.2.0",
+    "nightwatch": "0.9.14",
+    "nightwatch-allure-adapter": "1.2.2",
+    "nightwatch-html-reporter": "^2.0.4",
+    "npm-run-all": "^4.0.2",
+    "phantomjs-prebuilt": "^2.1.15",
+    "properties-parser": "^0.3.1"
+  },
+  "scripts": {
+    "test": "node nightwatch tests/stubbed/Scenario/AirportRoundtrip.js --browser phantom --stage sandbox",
+    "report": "node node_modules/.bin/email-reporter -p cars",
+    "clean": "node node_modules/.bin/grunt clean",
+    "stubbed": "node ./nightwatch --autoscaleGrid --tag Stubbed --tag NoStub --env US --suiteRetries 2 --reporter customReporter.js --browser firefox --verbose --packageGroup stubbed|| true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@"
+  },
+  "keywords": [
+    "nightwatch",
+    "functionaltestcases"
+  ],
+  "author": "YaXiang",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.0.3",
+    "properties": "^1.2.1",
+    "request": "^2.72.0",
+    "xtend": "^4.0.1"
+  }
+}

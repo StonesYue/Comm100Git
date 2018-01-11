@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="liveChart.campains.PreChatTest"
+    errors="1" failures="0" hostname="" id="" package="campains" skipped="0"
+    tests="1" time="2.955" timestamp="Mon, 18 Dec 2017 02:25:27 GMT">
+  
+    <testcase name="Sign in the comm100" classname="liveChart.campains.PreChatTest" time="2.955" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Live Chart / Campains\ Pre Chat Test / Sign in the comm100]:
+
+  Error: username was not found in &quot;LoginPage&quot;. Available elements: userName,password,signInButton,forgetPassWord,autoSignIn
+    at getElement (E:\Comm100_UI_Automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Page.waitForElementVisible (E:\Comm100_UI_Automation\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at Page.signIn (E:\Comm100_UI_Automation\pageobjects\LoginPage.js:30:14)
+    at Object.&lt;anonymous&gt; (E:\Comm100_UI_Automation\tests\liveChart\campains\PreChatTest.js:8:22)
+    at HttpRequest.&lt;anonymous&gt; (E:\Comm100_UI_Automation\node_modules\nightwatch\lib\index.js:366:18)
+    at emitTwo (events.js:126:13)
+    at HttpRequest.emit (events.js:214:7)
+    at HttpRequest.&lt;anonymous&gt; (E:\Comm100_UI_Automation\node_modules\nightwatch\lib\index.js:382:15)
+    at emitThree (events.js:136:13)
+    at HttpRequest.emit (events.js:217:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="liveChat.settings.cannedMessages.CannedMessageTest"
+    errors="0" failures="0" hostname="" id="" package="cannedMessages" skipped="0"
+    tests="2" time="22.61" timestamp="Fri, 05 Jan 2018 11:00:36 GMT">
+  
+    <testcase name="Sign in the comm100" classname="liveChat.settings.cannedMessages.CannedMessageTest" time="14.96" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify cannedMessagesOfPublic Page" classname="liveChat.settings.cannedMessages.CannedMessageTest" time="7.652" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

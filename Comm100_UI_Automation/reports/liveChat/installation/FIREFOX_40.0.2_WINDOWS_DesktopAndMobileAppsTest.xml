@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="liveChat.installation.DesktopAndMobileAppsTest"
+    errors="0" failures="0" hostname="" id="" package="installation" skipped="0"
+    tests="4" time="110.6" timestamp="Tue, 02 Jan 2018 09:43:33 GMT">
+  
+    <testcase name="Sign in the comm100" classname="liveChat.installation.DesktopAndMobileAppsTest" time="7.155" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="verify DesktopAndMobileApps Page" classname="liveChat.installation.DesktopAndMobileAppsTest" time="8.756" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="verify iPhoneApp Link" classname="liveChat.installation.DesktopAndMobileAppsTest" time="58.50" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="verify iPadApp Link" classname="liveChat.installation.DesktopAndMobileAppsTest" time="36.23" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

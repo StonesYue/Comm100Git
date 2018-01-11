@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+global.__base = __dirname + '/';
+global.utilities = require('./data/utilities.js');
+global.getWeather = require('./data/getWeather.js');
+global.writeFile = require('./data/writeFile.js');
+require('nightwatch/bin/runner.js');

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="liveChart.Departments.AddDepartmentPage"
+    errors="0" failures="0" hostname="" id="" package="Departments" skipped="0"
+    tests="2" time="28.20" timestamp="Wed, 13 Dec 2017 06:28:27 GMT">
+  
+    <testcase name="Sign in the comm100" classname="liveChart.Departments.AddDepartmentPage" time="20.30" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add A Department" classname="liveChart.Departments.AddDepartmentPage" time="7.901" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="liveChat.dashboard.Dashboard"
+    errors="1" failures="0" hostname="" id="" package="dashboard" skipped="0"
+    tests="2" time="19.08" timestamp="Sat, 30 Dec 2017 08:29:28 GMT">
+  
+    <testcase name="Sign in the comm100" classname="liveChat.dashboard.Dashboard" time="19.07" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Live Chat / Dashboard\ Dashboard / Verify GetOnlineAndChat In Quick Access]:
+
+  TypeError: Dashboard.click is not a function
+    at Object.Verify GetOnlineAndChat In Quick Access (D:\Comm100_UI_Automation\tests\liveChat\dashboard\Dashboard.js:12:18)
+    at Module.call (D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Comm100_UI_Automation\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\Comm100_UI_Automation\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\Comm100_UI_Automation\node_modules\q\q.js:796:13)
+    at D:\Comm100_UI_Automation\node_modules\q\q.js:556:49
+    at runSingle (D:\Comm100_UI_Automation\node_modules\q\q.js:137:13)
+    at flush (D:\Comm100_UI_Automation\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+      </system-err>
+  
+    <testcase name="Verify GetOnlineAndChat In Quick Access" classname="liveChat.dashboard.Dashboard" time="0.01100" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Live Chat / Dashboard\ Dashboard / Verify GetOnlineAndChat In Quick Access]:
+
+  TypeError: Dashboard.click is not a function
+    at Object.Verify GetOnlineAndChat In Quick Access (D:\Comm100_UI_Automation\tests\liveChat\dashboard\Dashboard.js:12:18)
+    at Module.call (D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Comm100_UI_Automation\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Comm100_UI_Automation\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\Comm100_UI_Automation\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\Comm100_UI_Automation\node_modules\q\q.js:796:13)
+    at D:\Comm100_UI_Automation\node_modules\q\q.js:556:49
+    at runSingle (D:\Comm100_UI_Automation\node_modules\q\q.js:137:13)
+    at flush (D:\Comm100_UI_Automation\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
